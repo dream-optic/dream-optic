@@ -2,100 +2,74 @@
 <html lang="ro">
 <head>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Dream Optic</title>
 <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<div class="top-bar">
-🔥 Programări disponibile AZI – Sună acum!
-</div>
-
 <header>
     <h1>Dream Optic</h1>
+    <nav>
+        <a href="#">Acasă</a>
+        <a href="#servicii">Servicii</a>
+        <a href="#locatii">Locații</a>
+        <a href="#contact">Contact</a>
+    </nav>
 </header>
 
 <section class="hero">
     <h2>Vezi clar chiar de azi 👓</h2>
-    <p>Consult rapid + ochelari pe loc</p>
-
-    <div class="cta-buttons">
-        <a href="tel:0770705024">📞 Sună acum</a>
-        <a href="https://wa.me/40770705024" target="_blank">💬 WhatsApp</a>
-    </div>
-
-    <p class="oferta">🎁 Reducere la rame – doar perioada aceasta!</p>
+    <p>Consult + ochelari pe loc</p>
+    <a href="tel:0770705024" class="btn">Sună acum</a>
 </section>
 
-<section>
-    <h2>De ce să alegi Dream Optic?</h2>
+<section id="servicii">
+    <h2>Serviciile noastre</h2>
     <div class="cards">
-        <div>✔ Consult profesional</div>
-        <div>✔ Rame moderne</div>
-        <div>✔ Prețuri accesibile</div>
-        <div>✔ 2 locații în București</div>
+        <div class="card">Consult oftalmologic</div>
+        <div class="card">Ochelari pe loc</div>
+        <div class="card">Rame moderne</div>
+        <div class="card">Prețuri accesibile</div>
     </div>
 </section>
 
-<section>
-    <h2>📍 Dream Optic Rahova</h2>
-    <p>Șoseaua Alexandriei nr. 10</p>
-    <p><a href="tel:0770705024">0770705024</a></p>
+<section id="locatii">
+    <h2>Locațiile noastre</h2>
 
-    <ul class="program">
-        <li>Luni - Vineri: 09:00 - 18:00</li>
-        <li>Sâmbătă: 09:00 - 13:30</li>
-        <li>Duminică: Închis</li>
-    </ul>
+    <div class="locatie">
+        <h3>Rahova</h3>
+        <p>Șoseaua Alexandriei nr 10</p>
+        <p>📞 0770705024</p>
+    </div>
 
-    <p id="status-rahova"></p>
-
-    <iframe src="https://www.google.com/maps?q=Șoseaua+Alexandriei+10+București&output=embed"></iframe>
-
-    <div class="gallery">
-        <img src="rahova-exterior.jpg">
-        <img src="rahova-interior.jpg">
-        <img src="rahova-cabinet.jpg">
+    <div class="locatie">
+        <h3>Militari</h3>
+        <p>Bulevardul Iuliu Maniu nr 19</p>
+        <p>📞 0743114481</p>
     </div>
 </section>
 
-<section>
-    <h2>📍 Dream Optic Militari</h2>
-    <p>Bulevardul Iuliu Maniu nr. 19</p>
-    <p><a href="tel:0743114481">0743114481</a></p>
-
-    <ul class="program">
-        <li>Luni - Duminică: 09:00 - 21:00</li>
-    </ul>
-
-    <p id="status-militari"></p>
-
-    <iframe src="https://www.google.com/maps?q=Iuliu+Maniu+19+București&output=embed"></iframe>
-
-    <div class="gallery">
+<section id="galerie">
+    <h2>Galerie</h2>
+    <div class="galerie">
         <img src="militari-exterior.jpg">
         <img src="militari-interior.jpg">
+        <img src="rahova-exterior.jpg">
+        <img src="rahova-interior.jpg">
     </div>
 </section>
 
-<section>
-    <h2>Programează-te</h2>
-    <form id="formProgramare">
-        <input type="text" placeholder="Nume" required>
-        <input type="tel" placeholder="Telefon" required>
-        <input type="date" required>
-        <button type="submit">Trimite</button>
-    </form>
-    <p id="mesaj"></p>
+<section id="contact">
+    <h2>Contact</h2>
+    <p>📞 0770705024</p>
+    <p>📞 0743114481</p>
 </section>
 
 <footer>
-    <p>© 2026 Dream Optic</p>
+    <p>© Dream Optic</p>
 </footer>
 
-<a href="https://wa.me/40770705024" class="whatsapp">💬</a>
-
-<script src="script.js"></script>
 </body>
 </html>
